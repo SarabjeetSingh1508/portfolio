@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sarabjeet Singh</title>
+
+    <style>
+        body {
+            background: #0d1117;
+            color: #c9d1d9;
+            font-family: Arial, sans-serif;
+            margin: 0;
+        }
+
+        .container {
+            display: flex;
+            padding: 20px;
+            gap: 20px;
+        }
+
+        .sidebar {
+            width: 280px;
+        }
+
+        .avatar {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid #30363d;
+        }
+
+        h1 {
+            margin: 10px 0 0;
+        }
+
+        h2 {
+            color: #8b949e;
+            margin-top: 5px;
+        }
+
+        a {
+            color: #58a6ff;
+            text-decoration: none;
+        }
+
+        .content {
+            flex: 1;
+        }
+
+        .repo-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 16px;
+        }
+
+        .repo-card {
+            border: 1px solid #30363d;
+            border-radius: 8px;
+            padding: 15px;
+        }
+
+        .repo-title {
+            font-weight: bold;
+            color: #58a6ff;
+        }
+
+        .repo-desc {
+            font-size: 13px;
+            color: #8b949e;
+            margin-top: 8px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <!-- SIDEBAR -->
+        <div class="sidebar">
+
+            <!-- YOUR IMAGE HERE -->
+            <img class="avatar" src="sarabjeet.jpeg" alt="Sarabjeet Singh">
+
+            <h1>Sarabjeet Singh</h1>
+            <h2>SarabjeetSingh1508</h2>
+
+            <p>Data enthusiast focused on analysis, visualization, and extracting meaningful insights from data.</p>
+
+            <p>📍 India</p>
+
+            <p>📧
+                <a href="mailto:sarabjeet.singh2024@nst.rishihood.edu.in">
+                    sarabjeet.singh2024@nst.rishihood.edu.in
+                </a>
+            </p>
+
+            <p>📞
+                <a href="tel:+919608026882">
+                    +91 9608026882
+                </a>
+            </p>
+
+            <p>🔗
+                <a href="https://github.com/SarabjeetSingh1508" target="_blank">
+                    GitHub Profile
+                </a>
+            </p>
+
+        </div>
+
+
+        <!-- MAIN CONTENT -->
+        <div class="content">
+
+            <h2>Projects</h2>
+
+            <div class="repo-grid">
+
+                <!-- PROJECT 1 -->
+                <div class="repo-card">
+                    <a class="repo-title"
+                        href="https://docs.google.com/spreadsheets/d/1Ohjya1lOHC5GPMMfjLEkgw0JAaoDfKhKcU3QG1sEaPY/edit?usp=sharing"
+                        target="_blank">
+                        Data Analysis Dashboard (Spreadsheet)
+                    </a>
+
+                    <p class="repo-desc">
+                        Built a comprehensive data analysis dashboard using Excel/Google Sheets.
+                        Includes data cleaning, pivot tables, and interactive charts to generate
+                        actionable insights and support data-driven decisions.
+                    </p>
+                </div>
+
+                <!-- PROJECT 2 -->
+                <div class="repo-card">
+                    <a class="repo-title" href="https://github.com/paramkhodiyar/SecE_G15_VideoGameSales"
+                        target="_blank">
+                        Video Game Sales Analysis
+                    </a>
+
+                    <p class="repo-desc">
+                        Performed exploratory data analysis on global video game sales data using Python.
+                        Cleaned datasets, analyzed trends across genres and platforms, and created
+                        visualizations to uncover sales patterns across regions.
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <footer style="text-align:center; padding:20px; border-top:1px solid #30363d;">
+        © 2026 Sarabjeet Singh
+    </footer>
+
+</body>
+
+</html>
